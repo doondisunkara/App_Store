@@ -1,0 +1,33 @@
+.tab-btn {
+  color: #7b8794;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #7b8794;
+  padding: 0px 20px 4px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-btn {
+    font-size: 16px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 8px;
+  }
+}
+
+.selected-tab {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .selected-tab {
+    padding-bottom: 12px;
+  }
+}
